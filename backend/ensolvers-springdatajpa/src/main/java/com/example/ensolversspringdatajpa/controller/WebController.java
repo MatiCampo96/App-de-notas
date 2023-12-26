@@ -24,17 +24,17 @@ import org.springframework.web.bind.annotation.PutMapping;
 
 
 @RestController
-public class RestWebController {
+public class WebController {
 
     //atributes
     private NoteRepository noteRepository;
     private CategoryRepository categoryRepository;
 
-    private final Logger log = LoggerFactory.getLogger(RestWebController.class);
+    private final Logger log = LoggerFactory.getLogger(RestController.class);
 
     //constructors
 
-    public RestWebController(NoteRepository noteRepository, CategoryRepository categoryRepository) {
+    public WebController(NoteRepository noteRepository, CategoryRepository categoryRepository) {
         this.noteRepository = noteRepository;
         this.categoryRepository = categoryRepository;
     }
