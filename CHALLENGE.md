@@ -51,3 +51,20 @@ There is no restriction about the technology to be used, provided that:
 - **Login**: If you provide a login screen, document the default user/password in `README.md`.
 - **Live deployed version**: If you deploy the app (e.g., via Heroku), add the URL of the live running version to `README.md`.
 
+
+---
+
+1- Elaborar DER
+2- Crear Entidades
+3- Crear Repositorios
+4- Crear Controler
+5- Probar todo con Postman
+6- Capa de servicios(testear relaciones)
+7- Implento seguridad básica(login de sesión básica, cifrado)
+
+8- Documentar con OpenApi(pendiente)
+9- Test unitarios para Spring(pendiente)
+10- Dejar el deploy para luego de tener Front
+
+11- Todo el front y posterior deploy(pendiente)
+
